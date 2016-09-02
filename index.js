@@ -1,6 +1,6 @@
 (function(angular) {
   'use strict';
-  return angular.module('lazyClick', [])
+  return angular.module('angluar-lazy-click', [])
     .directive('lazyClick', ['$parse', '$timeout', function($parse, $timeout) {
       return {
         restrict: 'A',

@@ -5,9 +5,20 @@ lazy-click
 
 按钮执行点击事件后，默认2s内点击操作失效，并在2s内添加disabled类， 2s后恢复初始状态
 
+#### install
+
+npm i angular-lazy-click --save
+
+or
+
+bower i angular-lazy-click --save
+
 #### demo
 
 ```js
+
+angular.module('[your module]', ['angular-lazy-click'])
+
 angular.controller('test', function($scope) {
   $scope.test1 = function() {
     console.log(1);
