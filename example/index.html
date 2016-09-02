@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Angular JS</title>
+</head>
+<style type="text/css">
+  button.disabled {
+    background-color: red;
+  }
+
+</style>
+<body ng-app="jsbin">
+  <div ng-controller="DemoCtrl as demo">
+    <h1>Hello {{demo.name}}</h1>
+    <button lazy-click="demo.test();">test</button>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+  <!--
+    Not necessary for jsbin...
+
+  <script src="main.js"></script>
+  -->
+</body>
+<script type="text/javascript" src="../index.js"></script>
+<script type="text/javascript">
+
+  var app = angular.module('jsbin', ['angular-lazy-click']);
+    app.controller('DemoCtrl', function() {
+      this.name = 'World';
+      this.test = function() {
+        console.log(1231);
+      }
+    });
+</script>
+</html>
