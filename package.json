@@ -4,7 +4,7 @@
   "description": "lazy-click ==========",
   "main": "index.js",
   "scripts": {
-    "postversion": "git push origin master --tags",
+    "postversion": "git push origin master --tags"
   },
   "repository": {
     "type": "git",
