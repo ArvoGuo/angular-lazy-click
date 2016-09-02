@@ -1,0 +1,17 @@
+{
+  "name": "angular-lazy-click",
+  "description": "lazy-click ==========",
+  "main": "index.js",
+  "authors": [
+    "Arvo <ArvoGuo@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/ArvoGuo/angular-lazy-click",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

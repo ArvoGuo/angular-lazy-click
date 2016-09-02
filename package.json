@@ -1,0 +1,19 @@
+{
+  "name": "angular-lazy-click",
+  "version": "1.0.0",
+  "description": "lazy-click ==========",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArvoGuo/angular-lazy-click.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArvoGuo/angular-lazy-click/issues"
+  },
+  "homepage": "https://github.com/ArvoGuo/angular-lazy-click#readme"
+}
