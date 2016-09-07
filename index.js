@@ -1,4 +1,4 @@
-(function(angular) {
+;(function(angular) {
   'use strict';
   return angular.module('angular-lazy-click', [])
     .directive('lazyClick', ['$parse', '$timeout', function($parse, $timeout) {
@@ -58,4 +58,4 @@
         }
       }
     }]);
-})(window.angular)
+})(window.angular);
